@@ -6,18 +6,18 @@
 //  Copyright © 2016 Boles. All rights reserved.
 //
 
-#import "SCEAVPlayerViewController.h"
+#import "SCEAVPlayerViewControllerViewController.h"
 
 #import <AVKit/AVPlayerViewController.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface SCEAVPlayerViewController ()
+@interface SCEAVPlayerViewControllerViewController ()
 
 @property (nonatomic, strong) AVPlayerViewController *playerViewController;
 
 @end
 
-@implementation SCEAVPlayerViewController
+@implementation SCEAVPlayerViewControllerViewController
 
 #pragma mark - ViewLifecycle
 
@@ -27,7 +27,7 @@
     
     /*-----------------*/
     
-    [self.view addSubview:self.streamPlayer.view];
+    [self.view addSubview:self.playerViewController.view];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -61,10 +61,10 @@
         _playerViewController.player = [AVPlayer playerWithURL:streamURL];
         
         _playerViewController.showsPlaybackControls = YES;
-        _streamPlayer.view.frame = CGRectMake(0.0f,
-                                              0.0f,
-                                              self.view.frame.size.width,
-                                              self.view.frame.size.height - 150.0f);
+        _playerViewController.view.frame = CGRectMake(0.0f,
+                                                      0.0f,
+                                                      self.view.frame.size.width,
+                                                      self.view.frame.size.height - self.tabBarController.tabBar.frame.size.height);
     }
     
     return _playerViewController;

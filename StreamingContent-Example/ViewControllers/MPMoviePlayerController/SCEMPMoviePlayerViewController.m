@@ -60,7 +60,7 @@
         _streamPlayer.view.frame = CGRectMake(0.0f,
                                               0.0f,
                                               self.view.frame.size.width,
-                                              self.view.frame.size.height - 150.0f);
+                                              self.view.frame.size.height - self.tabBarController.tabBar.frame.size.height);
     }
     
     return _streamPlayer;

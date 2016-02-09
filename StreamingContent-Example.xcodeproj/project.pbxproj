@@ -12,8 +12,9 @@
 		4387B5681C6A4289004BDB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387B55A1C6A4289004BDB93 /* Assets.xcassets */; };
 		4387B56A1C6A4289004BDB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4387B55E1C6A4289004BDB93 /* Main.storyboard */; };
 		4387B56C1C6A4289004BDB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5621C6A4289004BDB93 /* main.m */; };
-		4387B5781C6A5142004BDB93 /* SCEAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5741C6A5142004BDB93 /* SCEAVPlayerViewController.m */; };
+		4387B5781C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5741C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.m */; };
 		4387B5791C6A5142004BDB93 /* SCEMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5771C6A5142004BDB93 /* SCEMPMoviePlayerViewController.m */; };
+		4387B57D1C6A51EF004BDB93 /* SCEAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B57C1C6A51EF004BDB93 /* SCEAVPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,12 @@
 		4387B55F1C6A4289004BDB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4387B5611C6A4289004BDB93 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4387B5621C6A4289004BDB93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4387B5731C6A5142004BDB93 /* SCEAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEAVPlayerViewController.h; sourceTree = "<group>"; };
-		4387B5741C6A5142004BDB93 /* SCEAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEAVPlayerViewController.m; sourceTree = "<group>"; };
+		4387B5731C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEAVPlayerViewControllerViewController.h; sourceTree = "<group>"; };
+		4387B5741C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEAVPlayerViewControllerViewController.m; sourceTree = "<group>"; };
 		4387B5761C6A5142004BDB93 /* SCEMPMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEMPMoviePlayerViewController.h; sourceTree = "<group>"; };
 		4387B5771C6A5142004BDB93 /* SCEMPMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		4387B57B1C6A51EF004BDB93 /* SCEAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEAVPlayerViewController.h; sourceTree = "<group>"; };
+		4387B57C1C6A51EF004BDB93 /* SCEAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEAVPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		4387B5631C6A4289004BDB93 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4387B57A1C6A5177004BDB93 /* AVPlayer */,
 				4387B5721C6A5142004BDB93 /* AVPlayerViewController */,
 				4387B5751C6A5142004BDB93 /* MPMoviePlayerController */,
 			);
@@ -154,8 +158,8 @@
 		4387B5721C6A5142004BDB93 /* AVPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4387B5731C6A5142004BDB93 /* SCEAVPlayerViewController.h */,
-				4387B5741C6A5142004BDB93 /* SCEAVPlayerViewController.m */,
+				4387B5731C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.h */,
+				4387B5741C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.m */,
 			);
 			path = AVPlayerViewController;
 			sourceTree = "<group>";
@@ -167,6 +171,15 @@
 				4387B5771C6A5142004BDB93 /* SCEMPMoviePlayerViewController.m */,
 			);
 			path = MPMoviePlayerController;
+			sourceTree = "<group>";
+		};
+		4387B57A1C6A5177004BDB93 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4387B57B1C6A51EF004BDB93 /* SCEAVPlayerViewController.h */,
+				4387B57C1C6A51EF004BDB93 /* SCEAVPlayerViewController.m */,
+			);
+			path = AVPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +284,9 @@
 			files = (
 				4387B56C1C6A4289004BDB93 /* main.m in Sources */,
 				4387B5671C6A4289004BDB93 /* AppDelegate.m in Sources */,
+				4387B57D1C6A51EF004BDB93 /* SCEAVPlayerViewController.m in Sources */,
 				4387B5791C6A5142004BDB93 /* SCEMPMoviePlayerViewController.m in Sources */,
-				4387B5781C6A5142004BDB93 /* SCEAVPlayerViewController.m in Sources */,
+				4387B5781C6A5142004BDB93 /* SCEAVPlayerViewControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

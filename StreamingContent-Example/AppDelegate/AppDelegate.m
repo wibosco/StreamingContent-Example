@@ -9,13 +9,16 @@
 #import "AppDelegate.h"
 
 #import "SCEMPMoviePlayerViewController.h"
+#import "SCEAVPlayerViewControllerViewController.h"
 #import "SCEAVPlayerViewController.h"
 
 @interface AppDelegate ()
 
 @property (nonatomic, strong) SCEMPMoviePlayerViewController *mpPlayerViewController;
+@property (nonatomic, strong) SCEAVPlayerViewControllerViewController *avPlayerViewControllerViewController;
 @property (nonatomic, strong) SCEAVPlayerViewController *avPlayerViewController;
 
+@property (nonatomic, strong) UINavigationController *avPlayerViewControllerNavigationController;
 @property (nonatomic, strong) UINavigationController *avPlayerNavigationController;
 @property (nonatomic, strong) UINavigationController *mpPlayerNavigationController;
 
@@ -61,6 +64,7 @@
         _tabBarController = [[UITabBarController alloc] init];
         
         [_tabBarController addChildViewController:self.mpPlayerNavigationController];
+        [_tabBarController addChildViewController:self.avPlayerViewControllerNavigationController];
         [_tabBarController addChildViewController:self.avPlayerNavigationController];
     }
     
@@ -75,6 +79,16 @@
     }
     
     return _mpPlayerNavigationController;
+}
+
+- (UINavigationController *)avPlayerViewControllerNavigationController
+{
+    if (!_avPlayerViewControllerNavigationController)
+    {
+        _avPlayerViewControllerNavigationController = [[UINavigationController alloc] initWithRootViewController:self.avPlayerViewControllerViewController];
+    }
+    
+    return _avPlayerViewControllerNavigationController;
 }
 
 - (UINavigationController *)avPlayerNavigationController
@@ -100,12 +114,23 @@
     return _mpPlayerViewController;
 }
 
-- (SCEAVPlayerViewController *)avPlayerViewController
+- (SCEAVPlayerViewControllerViewController *)avPlayerViewControllerViewController
+{
+    if (!_avPlayerViewControllerViewController)
+    {
+        _avPlayerViewControllerViewController = [[SCEAVPlayerViewControllerViewController alloc] init];
+        _avPlayerViewControllerViewController.title = @"AVPlayerViewController";
+    }
+    
+    return _avPlayerViewControllerViewController;
+}
+
+- (SCEAVPlayerViewControllerViewController *)avPlayerViewController
 {
     if (!_avPlayerViewController)
     {
         _avPlayerViewController = [[SCEAVPlayerViewController alloc] init];
-        _avPlayerViewController.title = @"AVPlayerViewController";
+        _avPlayerViewController.title = @"AVPlayer";
     }
     
     return _avPlayerViewController;
