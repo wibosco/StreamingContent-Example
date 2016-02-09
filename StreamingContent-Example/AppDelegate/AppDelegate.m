@@ -94,7 +94,7 @@
     if (!_mpPlayerViewController)
     {
         _mpPlayerViewController = [[SCEMPMoviePlayerViewController alloc] init];
-        _mpPlayerViewController.title = @"MPMoviePlayer";
+        _mpPlayerViewController.title = @"MPMoviePlayerController";
     }
     
     return _mpPlayerViewController;
@@ -105,7 +105,7 @@
     if (!_avPlayerViewController)
     {
         _avPlayerViewController = [[SCEAVPlayerViewController alloc] init];
-        _avPlayerViewController.title = @"AVPlayer";
+        _avPlayerViewController.title = @"AVPlayerViewController";
     }
     
     return _avPlayerViewController;
