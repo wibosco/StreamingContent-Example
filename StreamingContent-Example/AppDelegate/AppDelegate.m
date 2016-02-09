@@ -76,6 +76,7 @@
     if (!_mpPlayerNavigationController)
     {
         _mpPlayerNavigationController = [[UINavigationController alloc] initWithRootViewController:self.mpPlayerViewController];
+        _mpPlayerNavigationController.tabBarItem.image = [UIImage imageNamed:@"MPPlayerController"];
     }
     
     return _mpPlayerNavigationController;
@@ -86,6 +87,7 @@
     if (!_avPlayerViewControllerNavigationController)
     {
         _avPlayerViewControllerNavigationController = [[UINavigationController alloc] initWithRootViewController:self.avPlayerViewControllerViewController];
+        _avPlayerViewControllerNavigationController.tabBarItem.image = [UIImage imageNamed:@"AVPlayerViewController"];
     }
     
     return _avPlayerViewControllerNavigationController;
@@ -96,6 +98,7 @@
     if (!_avPlayerNavigationController)
     {
         _avPlayerNavigationController = [[UINavigationController alloc] initWithRootViewController:self.avPlayerViewController];
+        _avPlayerNavigationController.tabBarItem.image = [UIImage imageNamed:@"AVPlayer"];
     }
     
     return _avPlayerNavigationController;
@@ -125,7 +128,7 @@
     return _avPlayerViewControllerViewController;
 }
 
-- (SCEAVPlayerViewControllerViewController *)avPlayerViewController
+- (SCEAVPlayerViewController *)avPlayerViewController
 {
     if (!_avPlayerViewController)
     {

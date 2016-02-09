@@ -54,6 +54,7 @@
 {
     if (!_playerViewController)
     {
+        //example video from http://stackoverflow.com/questions/10104301/hls-streaming-video-url-need-for-testing
         NSURL *streamURL = [NSURL URLWithString:@"http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"];
         
         _playerViewController = [[AVPlayerViewController alloc] init];
