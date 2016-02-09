@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4387B5321C6A4143004BDB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5311C6A4143004BDB93 /* main.m */; };
-		4387B5351C6A4143004BDB93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5341C6A4143004BDB93 /* AppDelegate.m */; };
-		4387B5381C6A4143004BDB93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5371C6A4143004BDB93 /* ViewController.m */; };
-		4387B53B1C6A4143004BDB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4387B5391C6A4143004BDB93 /* Main.storyboard */; };
-		4387B53D1C6A4143004BDB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387B53C1C6A4143004BDB93 /* Assets.xcassets */; };
-		4387B5401C6A4143004BDB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4387B53E1C6A4143004BDB93 /* LaunchScreen.storyboard */; };
 		4387B54B1C6A4143004BDB93 /* StreamingContent_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B54A1C6A4143004BDB93 /* StreamingContent_ExampleTests.m */; };
+		4387B5671C6A4289004BDB93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5571C6A4289004BDB93 /* AppDelegate.m */; };
+		4387B5681C6A4289004BDB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387B55A1C6A4289004BDB93 /* Assets.xcassets */; };
+		4387B56A1C6A4289004BDB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4387B55E1C6A4289004BDB93 /* Main.storyboard */; };
+		4387B56C1C6A4289004BDB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5621C6A4289004BDB93 /* main.m */; };
+		4387B56D1C6A4289004BDB93 /* SCEMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5661C6A4289004BDB93 /* SCEMPMoviePlayerViewController.m */; };
+		4387B5711C6A4B48004BDB93 /* SCEAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4387B5701C6A4B48004BDB93 /* SCEAVPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +28,19 @@
 
 /* Begin PBXFileReference section */
 		4387B52D1C6A4143004BDB93 /* StreamingContent-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StreamingContent-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4387B5311C6A4143004BDB93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4387B5331C6A4143004BDB93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4387B5341C6A4143004BDB93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4387B5361C6A4143004BDB93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4387B5371C6A4143004BDB93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4387B53A1C6A4143004BDB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4387B53C1C6A4143004BDB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4387B53F1C6A4143004BDB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4387B5411C6A4143004BDB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4387B5461C6A4143004BDB93 /* StreamingContent-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StreamingContent-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4387B54A1C6A4143004BDB93 /* StreamingContent_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamingContent_ExampleTests.m; sourceTree = "<group>"; };
 		4387B54C1C6A4143004BDB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4387B5561C6A4289004BDB93 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4387B5571C6A4289004BDB93 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4387B55A1C6A4289004BDB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4387B55F1C6A4289004BDB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4387B5611C6A4289004BDB93 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4387B5621C6A4289004BDB93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4387B5651C6A4289004BDB93 /* SCEMPMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		4387B5661C6A4289004BDB93 /* SCEMPMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		4387B56F1C6A4B48004BDB93 /* SCEAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEAVPlayerViewController.h; sourceTree = "<group>"; };
+		4387B5701C6A4B48004BDB93 /* SCEAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEAVPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,25 +82,12 @@
 		4387B52F1C6A4143004BDB93 /* StreamingContent-Example */ = {
 			isa = PBXGroup;
 			children = (
-				4387B5331C6A4143004BDB93 /* AppDelegate.h */,
-				4387B5341C6A4143004BDB93 /* AppDelegate.m */,
-				4387B5361C6A4143004BDB93 /* ViewController.h */,
-				4387B5371C6A4143004BDB93 /* ViewController.m */,
-				4387B5391C6A4143004BDB93 /* Main.storyboard */,
-				4387B53C1C6A4143004BDB93 /* Assets.xcassets */,
-				4387B53E1C6A4143004BDB93 /* LaunchScreen.storyboard */,
-				4387B5411C6A4143004BDB93 /* Info.plist */,
-				4387B5301C6A4143004BDB93 /* Supporting Files */,
+				4387B5551C6A4289004BDB93 /* AppDelegate */,
+				4387B5581C6A4289004BDB93 /* Resources */,
+				4387B5601C6A4289004BDB93 /* SupportingFiles */,
+				4387B5631C6A4289004BDB93 /* ViewControllers */,
 			);
 			path = "StreamingContent-Example";
-			sourceTree = "<group>";
-		};
-		4387B5301C6A4143004BDB93 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4387B5311C6A4143004BDB93 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4387B5491C6A4143004BDB93 /* StreamingContent-ExampleTests */ = {
@@ -109,6 +97,76 @@
 				4387B54C1C6A4143004BDB93 /* Info.plist */,
 			);
 			path = "StreamingContent-ExampleTests";
+			sourceTree = "<group>";
+		};
+		4387B5551C6A4289004BDB93 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4387B5561C6A4289004BDB93 /* AppDelegate.h */,
+				4387B5571C6A4289004BDB93 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4387B5581C6A4289004BDB93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4387B5591C6A4289004BDB93 /* Images */,
+				4387B55B1C6A4289004BDB93 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4387B5591C6A4289004BDB93 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4387B55A1C6A4289004BDB93 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4387B55B1C6A4289004BDB93 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4387B55E1C6A4289004BDB93 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4387B5601C6A4289004BDB93 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4387B5611C6A4289004BDB93 /* Info.plist */,
+				4387B5621C6A4289004BDB93 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4387B5631C6A4289004BDB93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4387B56E1C6A4B34004BDB93 /* AVPlayer */,
+				4387B5641C6A4289004BDB93 /* MPMoviePlayer */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4387B5641C6A4289004BDB93 /* MPMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4387B5651C6A4289004BDB93 /* SCEMPMoviePlayerViewController.h */,
+				4387B5661C6A4289004BDB93 /* SCEMPMoviePlayerViewController.m */,
+			);
+			path = MPMoviePlayer;
+			sourceTree = "<group>";
+		};
+		4387B56E1C6A4B34004BDB93 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4387B56F1C6A4B48004BDB93 /* SCEAVPlayerViewController.h */,
+				4387B5701C6A4B48004BDB93 /* SCEAVPlayerViewController.m */,
+			);
+			path = AVPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +213,7 @@
 		4387B5251C6A4143004BDB93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SCE;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Boles;
 				TargetAttributes = {
@@ -191,9 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4387B5401C6A4143004BDB93 /* LaunchScreen.storyboard in Resources */,
-				4387B53D1C6A4143004BDB93 /* Assets.xcassets in Resources */,
-				4387B53B1C6A4143004BDB93 /* Main.storyboard in Resources */,
+				4387B56A1C6A4289004BDB93 /* Main.storyboard in Resources */,
+				4387B5681C6A4289004BDB93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4387B5381C6A4143004BDB93 /* ViewController.m in Sources */,
-				4387B5351C6A4143004BDB93 /* AppDelegate.m in Sources */,
-				4387B5321C6A4143004BDB93 /* main.m in Sources */,
+				4387B5711C6A4B48004BDB93 /* SCEAVPlayerViewController.m in Sources */,
+				4387B56D1C6A4289004BDB93 /* SCEMPMoviePlayerViewController.m in Sources */,
+				4387B56C1C6A4289004BDB93 /* main.m in Sources */,
+				4387B5671C6A4289004BDB93 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +295,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4387B5391C6A4143004BDB93 /* Main.storyboard */ = {
+		4387B55E1C6A4289004BDB93 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4387B53A1C6A4143004BDB93 /* Base */,
+				4387B55F1C6A4289004BDB93 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4387B53E1C6A4143004BDB93 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4387B53F1C6A4143004BDB93 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,7 +390,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "StreamingContent-Example/Info.plist";
+				INFOPLIST_FILE = "StreamingContent-Example/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamboles.StreamingContent-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,7 +402,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "StreamingContent-Example/Info.plist";
+				INFOPLIST_FILE = "StreamingContent-Example/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.williamboles.StreamingContent-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +453,7 @@
 				4387B5511C6A4143004BDB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4387B5521C6A4143004BDB93 /* Build configuration list for PBXNativeTarget "StreamingContent-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +462,7 @@
 				4387B5541C6A4143004BDB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

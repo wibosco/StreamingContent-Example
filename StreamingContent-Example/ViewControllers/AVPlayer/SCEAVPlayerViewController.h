@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SCEAVPlayerViewController.h
 //  StreamingContent-Example
 //
 //  Created by William Boles on 09/02/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SCEAVPlayerViewController : UIViewController
 
 @end
-
